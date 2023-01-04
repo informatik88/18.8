@@ -11,7 +11,7 @@ for i in range(ticket):
     else:
             price += 1390
             print('Стоимость билета - 1390 руб.')
-print(price)
+print('Сумма к оплате-', (price), 'руб.')
 if ticket > 3:
     price = price - ((price / 100) * 10)
     print(f'Сумма к оплате с учётом скидки 10 % - {price} руб.')
